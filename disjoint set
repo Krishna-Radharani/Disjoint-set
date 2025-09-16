@@ -1,8 +1,7 @@
 class DisjointSet{
 public:
-vector<int>rank,parent,size;
+vector<int>parent,size;
 DisjointSet(int n){ //n-> no of nodes initially
-rank.resize(n+1,0);// initialize all rank with 0 only
 parent.resize(n+1);
 size.resize(n+1);
 for(int i=0;i<=n;i++){
